@@ -12,7 +12,7 @@
 
 # RAM UBOT
 [![Deploy](https://telegra.ph/file/62adc50a87f4019476177.jpg)](https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git)
-# KLIK FOTO NYA KALO MAU DEPLOY
+# KLIK FOTO NYA TOT, KALO MAU DEPLOY!!!!!
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
@@ -50,7 +50,7 @@ Atau Bisa Gabung Ke Grup  -> [TEKAN DISINI](https://t.me/teman_random)
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [Alvin](https://github.com/Zora24) - Lord-usebot
+*   [AlvinGanss](https://github.com/Zora24) - Lord-usebot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
