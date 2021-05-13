@@ -103,7 +103,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/ramadhani892/RAM-UBOT.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "RAM-UBOT")
+    "UPSTREAM_REPO_BRANCH", "RE-BOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -349,7 +349,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} ㊙️".format("㊙️", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} ☣️".format("☣️", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -404,7 +404,7 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**㊙️ Daftar Modul RAM-UBOT:** \n".format(
-                        "**㊙️ RAM-UBOT**",
+                        "**☣️ RE-BOT**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -412,7 +412,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan RAM-UBOT ",
+                    "Bantuan RE-BOT ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
@@ -423,13 +423,13 @@ with bot:
                     buttons=[
                         [
                             custom.Button.url(
-                                "㊙️REPO㊙️",
-                                "https://github.com/ramadhani892/RAM-UBOT.git"),
+                                "☣️REPO☣️",
+                                "https://github.com/yunosainth/RE-BOT.git"),
                             custom.Button.url(
-                                "㊙️OWNER㊙️",
-                                "t.me/Ramadhaniiiiiii1"),
+                                "☣️OWNER☣️",
+                                "t.me/Ndiritrus"),
                             custom.Button.url(
-                                "㊙️STRING㊙️",
+                                "☣️STRING☣️",
                                 "https://replit.com/@AL241/String-Sesson-Lord#pyproject.toml")],
                     ],
                     link_preview=False,
@@ -450,7 +450,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy RAM-UBOT Anda Sendiri, Jangan Menggunakan Milik {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy RE-BOT Anda Sendiri, Jangan Menggunakan Milik {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
