@@ -315,7 +315,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Memeriksa dyno heroku anda...`")
     sleep(1)
-    await typew.edit("**RAM USAGE:**\n\n"
+    await typew.edit("**RE USAGE:**\n\n"
                      "╔════════════════════╗\n"
                      "`✥Penggunaan dyno Anda:`\n"
                      "**❉1000 Jam - 1000 Menit 100%**\n"
@@ -350,7 +350,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
-    await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
+    await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/syamsulmaarif76?r=nametag)")
 
 
 @register(outgoing=True, pattern='^.fck(?: |$)(.*)')
