@@ -1,5 +1,5 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
-# RAM-UBOT MINTA
+# RE-BOT MINTA
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License
 """ Userbot module containing commands related to the \
@@ -48,19 +48,19 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("__Sabar.__")
-    await pong.edit("__Sabar..__")
-    await pong.edit("__Sabar...__")
-    await pong.edit("__Sabar....__")
-    await pong.edit("__Bentar.__")
-    await pong.edit("__Bentar..__")
-    await pong.edit("__Bentar...__")
+    await pong.edit("__wait.__")
+    await pong.edit("__wait..__")
+    await pong.edit("__wait...__")
+    await pong.edit("__wait....__")
+    await pong.edit("__shhh.__")
+    await pong.edit("__awhh..__")
+    await pong.edit("__arghh...__")
     await pong.edit("__Bentar....__")
-    await pong.edit("__Nah!!__")
+    await pong.edit("__crott!!__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**         - 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 -** \n"
+                    f"**         - 𝗥 𝗘 - 𝗕 𝗢 𝗧 -** \n"
                     f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
                     f"**        • ꜱɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
@@ -76,7 +76,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**`{ALIVE_NAME}`**\n"
-                    f"✧ **-ꜱɪɢɴᴀʟ- :** "
+                    f"✧ **-ᴜᴘᴛɪᴍᴇ- :** "
                     f"`%sms` \n"
                     f"✧ **-ᴜᴘᴛɪᴍᴇ- :** "
                     f"`{uptime}` \n" % (duration))
@@ -98,7 +98,7 @@ async def redis(pong):
     await pong.edit("__Mohon menunggu...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
+    await pong.edit(f"**☣️𝗥𝗘-𝗕𝗢𝗧☣️**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -118,11 +118,11 @@ async def redis(pong):
     await pong.edit("__Pong..__")
     await pong.edit("__Ping...__")
     await pong.edit("__Pong....__")
-    await pong.edit("⭐")
+    await pong.edit("🥎")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n\n"
+    await pong.edit(f"** ☣️𝗥𝗘-𝗕𝗢𝗧☣️**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -136,11 +136,11 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("Ping")
-    await pong.edit("⭐")
+    await pong.edit("🥎")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**RAM - UBOT!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+    await pong.edit(f"**RE - BOT!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
 
 
 @register(outgoing=True, pattern="^Speed$")
@@ -167,7 +167,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐")
+                   "✧ **BOT:** ☣️𝗥𝗘-𝗕𝗢𝗧☣️")
 
 
 def speed_convert(size):
