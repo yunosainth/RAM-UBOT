@@ -1,4 +1,4 @@
-# Ported By Koala / @ManusiaRakitann From Dark Cobra # Thanks
+# Ported By Reagan / @Ndiritrus # Thanks
 # Based On Plugins
 # Lord Userbot
 
