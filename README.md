@@ -5,20 +5,20 @@
     <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
+  <a href="https://github.com/yunosainth/RE-BOT">
     <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
   </a>
 </p>  
 
-# RAM UBOT
-[![Deploy](https://telegra.ph/file/62adc50a87f4019476177.jpg)](https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git)
+# RE BOT
+[![Deploy](https://https://telegra.ph/file/ca11bc157caaa3b52d1a7.jpg)](https://heroku.com/deploy?template=https://github.com/yunosainth/RE-BOT.git)
 # KLIK FOTO NYA KALO MAU DEPLOY
 
-<h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
+<h3 align="center">REPO RE-BOT .</h3>
 <p align="center">&nbsp;</p>
 
 ### Repo RAM-UBOT
-Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo Userbot Github 
+Repo Yang Dibuat [Re](https://t.me/Ndiritrus) Dari Berbagai Repo Userbot Github 
 
 
 ### CARA MENDAPATKAN STRING SESSON
