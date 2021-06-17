@@ -429,7 +429,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "↩️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "CLOSE", data="{}_close({})".format(prefix, modulo_page)
+                    "🌟𝗖𝗟𝗢𝗦𝗘🌟", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "↪️", data="{}_next({})".format(prefix, modulo_page)
@@ -587,7 +587,7 @@ with bot:
                             Button.url("•INSTAGRAM• ",
                                    f"{IG_ALIVE}")],
                         [custom.Button.inline(
-                            "CLOSE", b"close")],
+                            "🔥𝗘𝗫𝗜𝗧🔥", b"close")],
                     ]
                 )
 
@@ -642,6 +642,11 @@ with bot:
                 reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+
+        @tgbot.on(events.CallbackQuery(data=b"close"))
+        async def close(event):
+            await event.edit("DAH ABIS ABANG NYA MAU PULANG!", buttons=Button.clear())
+
 
     except BaseException:
         LOGS.info(
