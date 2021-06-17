@@ -22,6 +22,11 @@
       "description": "Dapatkan Api Hash Di Web my.telegram.org.",
       "required": true
     },
+    "ALIVE_LOGO": {
+      "description": "BUAT ALIVE LOGO MU SENDIRI.",
+      "value": "https://telegra.ph/file/e590ad501ad8981fb4684.jpg",
+      "required": true
+     },
      "STRING_SESSION": {
       "description": "Ambil String Session di @ramubotspam dengan cara ketik #string.",
       "required": true
