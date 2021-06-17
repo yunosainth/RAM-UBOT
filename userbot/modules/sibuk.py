@@ -18,16 +18,17 @@ from userbot import (  # noqa pylint: disable=unused-import isort:skip
     PM_AUTO_BAN,
     USERS,
     PM_AUTO_BAN,
+    REPO_NAME,
     bot,
 )
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
-    f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
-    f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
-    f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
+    f"{REPO_NAME} 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
+    f"{REPO_NAME} 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
+    f"{REPO_NAME} 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
+    f"{REPO_NAME} 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n╰✠╼━━━━━━━━━",
 ]
 
 
@@ -62,7 +63,7 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"💫 __𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞__\n╭✠╼━━━━━━❖━━━━━━━✠╮\n┣ {ALIVE_NAME} __𝐋𝐚𝐠𝐢 𝐀𝐅𝐊__\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+        await afk_e.edit(f"__{REPO_NAME}__\n╭✠╼━━━━━━❖━━━━━━━✠╮\n┣ {ALIVE_NAME} __𝐋𝐚𝐠𝐢 𝐀𝐅𝐊__\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰✠╼━━━━━━❖━━━━━━━✠╯")
     else:
         await afk_e.edit("⭐ 𝘼 𝙁 𝙆\n╭✠╼━━━━━━❖━━━━━━━✠╮ \n┣ __𝐋𝐚𝐠𝐢 𝐀𝐅𝐊__ \n╰✠╼━━━━━━❖━━━━━━━✠╯")
     if user.last_name:
@@ -173,7 +174,7 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━")
+                        await mention.reply(f"{REPO_NAME} 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
@@ -240,7 +241,7 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━")
+                    await sender.reply(f"{REPO_NAME} 𝗔𝗙𝗞\n╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
@@ -248,7 +249,7 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"💫𝗥𝗔𝗠-𝗨𝗕𝗢𝗧 𝗔𝗙𝗞\n ╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━")
+                        await sender.reply(f"{REPO_NAME} 𝗔𝗙𝗞\n ╭✠╼━━━━━━━━━━━━ \n┣ {ALIVE_NAME} 𝐋𝐚𝐠𝐢 𝐀𝐅𝐊\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
