@@ -16,7 +16,8 @@ from userbot import (
     BOTLOG,
     BOTLOG_CHATID,
     CMD_HELP,
-    ALIVE_NAME)
+    ALIVE_NAME,
+    REPO_NAME)
 from userbot.events import register
 
 heroku_api = "https://api.heroku.com"
@@ -183,7 +184,7 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡!!\n\n"
+                f"𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡 {REPO_NAME}!!\n\n"
                 "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
                 "┣[•𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔𝗔𝗡 𝗦𝗔𝗔𝗧 𝗜𝗡𝗜 : \n"
                 f"┣[•   ▸ {AppHours} ᴊᴀᴍ - {AppMinutes} ᴍᴇɴɪᴛ. \n"
