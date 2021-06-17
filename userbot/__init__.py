@@ -522,7 +522,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari {REPO_NAME ",
+                    f"Bantuan Dari {REPO_NAME} ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
