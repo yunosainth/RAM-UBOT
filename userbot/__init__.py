@@ -568,10 +568,10 @@ with bot:
                     file=ramlogo,
                     link_preview=True,
                     buttons=[
-                          Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
-                          Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")
-                          Button.url("•OWNER• ", f"{OWNER_BOT}")
-                          Button.url("•INSTAGRAM• ", f"{IG_ALIVE}")
+                        [Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot")],
+                        [Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")],
+                        [Button.url("•OWNER• ", f"{OWNER_BOT}")],
+                        [Button.url("•INSTAGRAM• ", f"{IG_ALIVE}")],
                     ]
                 )
 
