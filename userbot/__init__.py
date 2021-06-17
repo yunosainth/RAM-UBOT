@@ -177,6 +177,9 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 # Untuk Perintah .rambot (alive)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM", None)
 
+# Untuk Melihat Repo
+REPO_NAME = os.environ.get("REPO_NAME", None)
+
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
@@ -512,29 +515,29 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [{DEFAULTUSER}]({OWNER_BOT}) **".format(
+                    text=f"{REPO_NAME}\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [{DEFAULTUSER}]({OWNER_BOT}) **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ ",
+                    "Bantuan Dari {REPO_NAME ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ━━━━━━━❖━━━━━━━━\n       ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
-                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN \n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nSENDIRI DONG NGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
+                    f" ━━━━━━━❖━━━━━━━━\n       {REPO_NAME}\n━━━━━━━❖━━━━━━━━ ",
+                    text=f"""**━━━━━━━❖━━━━━━━━\nLU BIKIN \n{REPO_NAME}\nSENDIRI DONG NGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
+                                f"{REPO_NAME}",
                                 "https://github.com/ramadhani892/RAM-UBOT"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/MaafGausahSokap")] 
+                                f"{OWNER_BOT}")] 
                     ],
                     link_preview=False,
                 )
@@ -570,7 +573,7 @@ with bot:
                     file=ramlogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot")],
+                        [Button.url(f"{REPO_NAME}", "t.me/ootspambot")],
                         [Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")],
                         [Button.url("•OWNER• ", f"{OWNER_BOT}")],
                         [Button.url("•INSTAGRAM• ", f"{IG_ALIVE}")],
