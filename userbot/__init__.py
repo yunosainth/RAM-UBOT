@@ -577,10 +577,17 @@ with bot:
                     file=ramlogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url(f"{REPO_NAME}", "t.me/ootspambot")],
-                        [Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")],
-                        [Button.url("•OWNER• ", f"{OWNER_BOT}")],
-                        [Button.url("•INSTAGRAM• ", f"{IG_ALIVE}")],
+                        [
+                            Button.url(f"{REPO_NAME}",
+                                       "t.me/ootspambot"),
+                            Button.url("•SUPPORT• ", 
+                                       "t.me/GeezSupportGroup")],
+                        [Button.url("•OWNER• ",
+                                    f"{OWNER_BOT}"),
+                            Button.url("•INSTAGRAM• ",
+                                   f"{IG_ALIVE}")],
+                        [custom.Button.inline(
+                            "CLOSE", b"close")],
                     ]
                 )
 
