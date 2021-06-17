@@ -564,6 +564,8 @@ with bot:
                     buttons=[
                           Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
                           Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")
+                   custom.Button.inline(
+                       "OPEN", data="{}_open({})".format(prefix, modulo_page)
                     ]
                 )
 
