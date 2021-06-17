@@ -14,7 +14,7 @@ import sys
 import os
 import io
 import sys
-from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, OWNER_BOT, IG_ALIVE, bot
 from userbot.events import register
 from userbot.utils import time_formatter
 import urllib
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**╭✠╼━━━━━━❖━━━━━━━✠╮** \n┣•REPO         : [✨𝐑𝐀𝐌-𝐔𝐁𝐎𝐓✨](https://github.com/ramadhani892/RAM-UBOT)\n┣•PEMILIK    : [𝐑𝐀𝐌𝐀](t.me/MaafGausahSokap)\n┣•CHANNEL : [𝐈𝐍𝐅𝐎](t.me/RAMUBOTINFO)\n┣•GROUP      : [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot) \n**╰✠╼━━━━━━❖━━━━━━━✠╯**"
+        "f**╭✠╼━━━━━━❖━━━━━━━✠╮**\n             [✨𝐑𝐀𝐌-𝐔𝐁𝐎𝐓✨](https://github.com/ramadhani892/RAM-UBOT)\n╰✠╼━━━━━━❖━━━━━━━✠╯\n•PEMILIK    : [𝐎𝐖𝐍𝐄𝐑]({OWNER_BOT})\n•CHANNEL : [𝐈𝐍𝐅𝐎](t.me/RAMUBOTINFO)\n•GROUP      : [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot)\n•INSTAGRAM  :  [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE})"
     )
 
 
@@ -159,7 +159,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`Harap Balas Di Gambar Lord`")
+        await img.edit("`Harap Balas Di Gambar`")
         return
 
     if photo:
