@@ -217,11 +217,11 @@ HELP_LOGO = os.environ.get(
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
 
 # Default .alive Group
-GROUP_LINK = os.environ(
+GROUP_LINK = os.environ.get(
     "GROUP_LINK") or "t.me/teman_random"
 
 # Default .repo Bot
-OWNER_BOT = os.environ(
+OWNER_BOT = os.environ.get(
     "OWNER_BOT") or "t.me/MaafGausahSokap"
 
 
