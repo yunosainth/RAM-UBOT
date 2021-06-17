@@ -1,6 +1,6 @@
 # RAM-UBOT
 from time import sleep
-from userbot import ALIVE_NAME, CMD_HELP, IG_ALIVE, bot
+from userbot import ALIVE_NAME, CMD_HELP, IG_ALIVE, REPO_NAME, bot
 from userbot.events import register
 from telethon import events
 import asyncio
@@ -366,7 +366,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("✨")
     sleep(2)
-    await typew.edit("𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡!!\n\n"
+    await typew.edit(f"𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡!! {REPO_NAME}\n\n"
                      "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
                      "┣[•𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔𝗔𝗡 𝗦𝗔𝗔𝗧 𝗜𝗡𝗜 :\n"
                      "┣[• ▸ 999 ᴊᴀᴍ - 999 ᴍᴇɴɪᴛ.\n" 
