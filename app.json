@@ -35,6 +35,10 @@
       "value": "Check Di Heroku Dashboard Mu",
       "required": true
     },
+    "REPO_NAME": {
+      "description": "BUAT NAMA REPO MU SENDIRI JIKA MAU",
+      "required": false
+    },
     "BOTLOG": {
       "description": "Kalo Mau Off in BOTLOG Ganti False",
       "value": "True",
