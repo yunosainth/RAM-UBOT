@@ -12,7 +12,7 @@ import redis
 from datetime import datetime
 
 from speedtest import Speedtest
-from userbot import CMD_HELP, StartTime, ALIVE_NAME
+from userbot import CMD_HELP, StartTime, ALIVE_NAME, REPO_NAME
 from userbot.events import register
 
 
@@ -62,7 +62,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**        ✨ 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 ✨** \n"
+                    f"**        {REPO_NAME}** \n"
                     f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
                     f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
@@ -132,7 +132,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-                    f"**            ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
+                    f"**            {REPO_NAME}**\n"
                     f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
                     f"** •  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
@@ -178,7 +178,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐")
+                   f"✧ **BOT:** {REPO_NAME}")
 
 
 def speed_convert(size):
