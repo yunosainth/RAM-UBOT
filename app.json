@@ -154,6 +154,11 @@
       "value": "🌟RAM-UBOT🌟",
       "required": false
     },
+    "OWNER_BOT": {
+      "description": "Buat RAM-UBOT seperti Milikmu Sendiri!",
+      "value": "t.me/username",
+      "required": true
+    },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
