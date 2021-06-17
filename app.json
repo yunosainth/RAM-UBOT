@@ -71,14 +71,6 @@
       "description": "Your MongoDB Atlas URL, Get your guide from https://telegra.ph/Mongo-DB-12-24.",
       "required": false
     },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your GITHUB_ACCESS_TOKEN, get it from 'https://github.com/settings/tokens'",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Add the GIT_REPO_NAME here. It helps with commit on GitHub.",
-      "required": false
-    },
     "COUNTRY": {
       "description": "Set your Country to be used in the .time and .date commands.",
       "value": "ID",
@@ -142,7 +134,7 @@
     },
     "OWNER_BOT": {
       "description": "Buat RAM-UBOT seperti Milikmu Sendiri!",
-      "value": "t.me/username",
+      "value": "t.me/maafgausahsokap",
       "required": true
     },
     "ALIVE_NAME": {
@@ -165,19 +157,6 @@
     "G_BAN_LOGGER_GROUP": {
       "description": "Masuk @ootspambot Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @goku_isbot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
       "value": "-1001122897608",
-      "required": false
-    },
-    "G_PHOTOS_CLIENT_ID": {
-      "description": "get the client id from https://j.mp/39lWQQm",
-      "required": false
-    },
-    "G_PHOTOS_CLIENT_SECRET": {
-      "description": "get the client secret from https://j.mp/39lWQQm",
-      "required": false
-    },
-    "BITLY_TOKEN": {
-      "description": "Your Bit.ly API key, get it from 'https://bitly.com/a/sign_up'",
-      "value": "",
       "required": false
     },
     "UB_BLACK_LIST_CHAT": {
