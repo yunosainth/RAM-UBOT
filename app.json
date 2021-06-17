@@ -49,6 +49,11 @@
       "value": "-1001122897608",
       "required": true
     },
+    "BOTLOG_MSG": {
+      "description": "Buat Pesan Botlog Mu sendiri Ya ngentot.",
+      "value": "║RAM-UBOT TELAH AKTIF!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰.",
+      "required": false
+    },
     "CONSOLE_LOGGER_VERBOSE": {
       "description": "If you need verbosity on the console logging",
       "value": "False"
