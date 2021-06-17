@@ -216,6 +216,12 @@ HELP_LOGO = os.environ.get(
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
 
+# Default .alive Group
+GROUP_LINK = os.environ("GROUP_LINK") or "t.me/teman_random"
+
+# Default .repo Bot
+OWNER_BOT = os.environ("OWNER_BOT") or "t.ne/MaafGausahSokap"
+
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -504,7 +510,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : ラマダニ。 **".format(
+                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [{DEFAULTUSER}]({OWNER_BOT}) **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -564,6 +570,8 @@ with bot:
                     buttons=[
                           Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
                           Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")
+                          Button.url("•OWNER• ", f"{OWNER_BOT}")
+                          Button.url("•INSTAGRAM• ", f"{IG_ALIVE}")
                     ]
                 )
 
