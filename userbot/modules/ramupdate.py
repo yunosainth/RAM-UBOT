@@ -64,11 +64,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy RAM-USERBOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy RAM-UBOT dyno.`'
             )
             return repo.__del__()
-        await event.edit('`⭐RAM-UBOT⭐:'
-                         '\nSedang Dalam proses Update ⭐RAM-UBOT⭐, Mohon Menunggu 7-8 Menit`'
+        await event.edit(f'`{REPO_NAME}:'
+                         f'\nSedang Dalam proses Update {REPO_NAME}, Mohon Menunggu beberapa Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
