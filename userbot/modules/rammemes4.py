@@ -380,6 +380,21 @@ async def typewriter(typew):
                      "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
                      f"𝗣𝗘𝗠𝗜𝗟𝗜𝗞  : {ALIVE_NAME}")
 
+@register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
+async def typewriter (typew):
+     typew.pattern_match.group(1)
+     await typew.edit("Heh Goblok!!!!")
+     sleep(1)
+     await typew.edit("Lu Kok Goblok banget si")
+     sleep(1)
+     await typew.edit("Beneran Lu goblok")
+     sleep(1)
+     await typew.edit("Udah Di Sia sian juga")
+     sleep(1)
+     await typew.edit("Masih Aja di pertahanin")
+     sleep(1)
+     await typew.edit("DASAR GOBLOK!!!")
+
 
 @register(outgoing=True, pattern='^.oy(?: |$)(.*)')
 async def typewriter(typew):
@@ -437,6 +452,6 @@ CMD_HELP.update({
     \nUsage: jempol , Cek dyno & prank global kick\
     \n\n`.tawa` ; `.oy` ; `.fck`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
-    \n\n`.ular` ; `.babi` ; `.ajg`\
+    \n\n`.ular` ; `.babi` ; `.ajg` ; `.gblk`\
     \nUsage: liat sendiri."
 })
