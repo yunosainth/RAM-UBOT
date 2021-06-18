@@ -16,7 +16,8 @@ from userbot import (
     HEROKU_API_KEY,
     HEROKU_APP_NAME,
     UPSTREAM_REPO_URL,
-    UPSTREAM_REPO_BRANCH)
+    UPSTREAM_REPO_BRANCH,
+    REPO_NAME)
 from userbot.events import register
 
 requirements_path = path.join(
@@ -91,7 +92,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`RAM-UBOT Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
+            await event.edit(f"`{REPO_NAME} Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -115,9 +116,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**⭐RAM-UBOT⭐** `Berhasil Di Update!`')
+    await event.edit(f'**{REPO_NAME}** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**⭐RAM-UBOT⭐** `Di Restart....`')
+    await event.edit(f'**{REPO_NAME}** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik...ツ`')
     await asyncio.sleep(10)
@@ -188,13 +189,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**🌟 RAM-UBOT 🌟 Sudah Versi Terbaru**\n')
+            f'\n**{REPO_NAME} Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk ⭐RAM-UBOT⭐ [{ac_br}]:\n\n✨Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk {REPO_NAME [{REPO_NAME}]:\n\n✨Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -214,12 +215,12 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`💫 Proses Update RAM-UBOT, Loading....1%`')
-        await event.edit('`💫 Proses Update RAM-UBOT, Loading....20%`')
-        await event.edit('`💫 Proses Update RAM-UBOT, Loading....35%`')
-        await event.edit('`💫 Proses Update RAM-UBOT, Loading....77%`')
-        await event.edit('`💫 Proses Update RAM-UBOT, Updating...90%`')
-        await event.edit('`💫 Proses Update RAM-UBOT, Mohon Menunggu....100%`')
+        await event.edit(f'`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....1%`')
+        await event.edit(f'`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....20%`')
+        await event.edit(f'`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....35%`')
+        await event.edit(f'`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....77%`')
+        await event.edit(f'`{EMOJI_HELP} Proses Update {REPO_NAME}, Updating...90%`')
+        await event.edit(f'`{EMOJI_HELP} Proses Update {REPO_NAME}, Mohon Menunggu....100%`')
     if conf == "one":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
