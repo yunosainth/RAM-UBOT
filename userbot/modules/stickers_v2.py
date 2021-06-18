@@ -63,7 +63,7 @@ async def _(event):
             await event.reply("Buka Blokir @stickers_to_image_bot Lalu Coba Lagi")
             return
         if response.text.startswith("I understand only stickers"):
-            await event.edit("`Maaf, Saya Tidak Bisa Mengubah Ini Menjadi Gambar, Periksa Kembali Apakah Itu Sticker Animasi?`")
+            await event.edit("`Maaf,Saya Tidak Bisa Mengubah Ini Menjadi Gambar, Periksa Kembali Apakah Itu Sticker Animasi?`")
         else:
             response = conv.wait_event(
                 events.NewMessage(
@@ -92,7 +92,7 @@ async def sticker_to_png(sticker):
 
     img = await sticker.get_reply_message()
     if not img.document:
-        await sticker.edit("`Maaf, Ini Bukan Sticker`")
+        await sticker.edit("`Maaf,Ini Bukan Sticker`")
         return False
 
     await sticker.edit("`Berhasil Mengambil Sticker!`")
