@@ -380,6 +380,7 @@ async def typewriter(typew):
                      "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
                      f"𝗣𝗘𝗠𝗜𝗟𝗜𝗞  : {ALIVE_NAME}")
 
+
 @register(outgoing=True, pattern='^.hy(?: |$(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
