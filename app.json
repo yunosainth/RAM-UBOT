@@ -40,10 +40,6 @@
       "value": "Check Di Heroku Dashboard Mu",
       "required": true
     },
-    "REPO_NAME": {
-      "description": "BUAT NAMA REPO MU SENDIRI JIKA MAU",
-      "required": false
-    },
     "BOTLOG": {
       "description": "Kalo Mau Off in BOTLOG Ganti False",
       "value": "True",
@@ -131,11 +127,6 @@
       "description": "Default Bio Mu.",
       "value": "🌟RAM-UBOT🌟",
       "required": false
-    },
-    "OWNER_BOT": {
-      "description": "Buat RAM-UBOT seperti Milikmu Sendiri!",
-      "value": "t.me/maafgausahsokap",
-      "required": true
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
