@@ -359,7 +359,7 @@ async def typewriter(typew):
     await typew.edit("`TOLOL!!!!`")
 
 
-@register(outgoing=True pattern='^.hy(?: |$(.*)')
+@register(outgoing=True, pattern='^.hy(?: |$(.*)')
 async def typewriter(typew:
     typew.pattern_match.group(1)
     await typew.edit("`hyy...`")
