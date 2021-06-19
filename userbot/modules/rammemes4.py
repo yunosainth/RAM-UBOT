@@ -383,17 +383,17 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.hy(?: |$(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("hyy...")
+    await typew.edit("`hyy...`")
     sleep(1)
-    await typew.edit("Aku Queen Karina")
+    await typew.edit("`Aku Queen Karina`")
     sleep(1)
-    await typew.edit("Tinggal Di bali")
+    await typew.edit("`Tinggal Di bali`")
     sleep(1)
-    await typew.edit("Salam Kenal ya")
+    await typew.edit("`Salam Kenal ya`")
     sleep(1)
-    await typew.edit("Aku Mau bilang")
+    await typew.edit("`Aku Mau bilang`")
     sleep(1)
-    await typew.edit("GJM!!")
+    await typew.edit("`GJM!!`")
 
 
 @register(outgoing=True, pattern='^.oy(?: |$)(.*)')
