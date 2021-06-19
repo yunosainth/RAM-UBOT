@@ -381,40 +381,24 @@ async def typewriter(typew):
                      f"𝗣𝗘𝗠𝗜𝗟𝗜𝗞  : {ALIVE_NAME}")
 
 
-@register(outgoing=True, pattern='^.hy(?: |$(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("`hyy...`")
-    sleep(1)
-    await typew.edit("`Aku Queen Karina`")
-    sleep(1)
-    await typew.edit("`Tinggal Di bali`")
-    sleep(1)
-    await typew.edit("`Salam Kenal ya`")
-    sleep(1)
-    await typew.edit("`Aku Mau bilang`")
-    sleep(1)
-    await typew.edit("`GJM!!`")
-
-
 @register(outgoing=True, pattern='^.oy(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Woi....**")
+    await typew.edit("**hy...**")
     sleep(3)
-    await typew.edit("**Grup banyak anggota yakan**")
+    await typew.edit("**Nama Aku Karinaa**")
     sleep(1)
-    await typew.edit("**Tapi ga ada yg nimbrung..**")
+    await typew.edit("**Banyak Yang panggil Aku Queen Karina**")
     sleep(1)
-    await typew.edit("**Kan tolol bgt, Jadi sepi kan**")
+    await typew.edit("**Karna aku cantik banget gengss.**")
     sleep(1)
-    await typew.edit("**Nimbrung tololl, Nimbrung!!**")
+    await typew.edit("**Bcanda Bcanda awkwkkw**")
     sleep(2)
-    await typew.edit("**Sombong amat punya jempol,Gamau nimbrung**")
+    await typew.edit("**Aku Ga sombong Woi**")
     sleep(1)
-    await typew.edit("**Jempol lu kebas? Apa dah putus?**")
+    await typew.edit("**Aku Cuma mau bilang**")
     sleep(2)
-    await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
+    await typew.edit("**GJM!!!!**")
 
 
 @register(outgoing=True, pattern='^.gi(?: |$)(.*)')
@@ -453,6 +437,6 @@ CMD_HELP.update({
     \nUsage: jempol , Cek dyno & prank global kick\
     \n\n`.tawa` ; `.oy` ; `.fck`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
-    \n\n`.ular` ; `.babi` ; `.ajg` ; `.gblk`\
+    \n\n`.ular` ; `.babi` ; `.ajg`\
     \nUsage: liat sendiri."
 })
