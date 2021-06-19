@@ -118,13 +118,13 @@ async def typewriter(typew):
     await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
 
     
-@register(outgoing=True, pattern='^.seff(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sef(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**SAYANG SEFFI CANTIK MWAHHH**")
 
 
-@register(outgoing=True, pattern='^.dhan(?: |$)(.*)')    
+@register(outgoing=True, pattern='^.fix(?: |$)(.*)')    
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**RAMADHAN GANTENG FIX**")
