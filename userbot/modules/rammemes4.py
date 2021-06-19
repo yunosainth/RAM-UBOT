@@ -372,7 +372,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("Aku Mau bilang")
     sleep(1)
-    await.typew.edit("GJM!!")
+    await typew.edit("GJM!!")
 
 
 @register(outgoing=True, pattern='^.uasu(?: |$)(.*)')
