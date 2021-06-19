@@ -380,20 +380,20 @@ async def typewriter(typew):
                      "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
                      f"𝗣𝗘𝗠𝗜𝗟𝗜𝗞  : {ALIVE_NAME}")
 
-@register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
-async def typewriter (typew):
-     typew.pattern_match.group(1)
-     await typew.edit("Heh Goblok!!!!")
-     sleep(1)
-     await typew.edit("Lu Kok Goblok banget si")
-     sleep(1)
-     await typew.edit("Beneran Lu goblok")
-     sleep(1)
-     await typew.edit("Udah Di Sia sian juga")
-     sleep(1)
-     await typew.edit("Masih Aja di pertahanin")
-     sleep(1)
-     await typew.edit("DASAR GOBLOK!!!")
+@register(outgoing=True, pattern='^.hy(?: |$(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("hyy...")
+    sleep(1)
+    await typew.edit("Aku Queen Karina")
+    sleep(1)
+    await typew.edit("Tinggal Di bali")
+    sleep(1)
+    await typew.edit("Salam Kenal ya")
+    sleep(1)
+    await typew.edit("Aku Mau bilang")
+    sleep(1)
+    await typew.edit("GJM!!")
 
 
 @register(outgoing=True, pattern='^.oy(?: |$)(.*)')
@@ -437,22 +437,6 @@ async def typewriter(typew):
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´")
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
-
-
-@register(outgoing=True, pattern='^.hy(?: |$(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("hyy...")
-    sleep(1)
-    await typew.edit("Aku Queen Karina")
-    sleep(1)
-    await typew.edit("Tinggal Di bali")
-    sleep(1)
-    await typew.edit("Salam Kenal ya")
-    sleep(1)
-    await typew.edit("Aku Mau bilang")
-    sleep(1)
-    await typew.edit("GJM!!")
 
 CMD_HELP.update({
     "memes7":
