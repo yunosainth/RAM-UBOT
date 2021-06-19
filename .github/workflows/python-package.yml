@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ DHAN-UBOT ]
+    branches: [ RAM-UBOT ]
   pull_request:
-    branches: [ DHAN-UBOT ]
+    branches: [ RAM-UBOT ]
 
 jobs:
   build:
