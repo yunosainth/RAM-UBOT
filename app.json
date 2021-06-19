@@ -1,5 +1,5 @@
 {
-  "name": "RAM-UBOT",
+  "name": "DHAN-UBOT",
   "description": "[RAM-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg",
   "keywords": [
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ramadhani892/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
-  "success_url": "https://t.me/teman_random",
+  "repository": "https://github.com/ramadhan73/RAM-UBOT",
+  "telegram": "https://t.me/Ramadhan472",
+  "success_url": "https://t.me/calonpenyanyi",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -52,7 +52,7 @@
     },
     "BOTLOG_MSG": {
       "description": "Buat Pesan Botlog Mu sendiri Ya ngentot.",
-      "value": "║RAM-UBOT TELAH AKTIF!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰.",
+      "value": "║DHAN-UBOT TELAH AKTIF!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰.",
       "required": false
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -125,7 +125,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "🌟RAM-UBOT🌟",
+      "value": "🌟DHAN-UBOT🌟",
       "required": false
     },
     "ALIVE_NAME": {
