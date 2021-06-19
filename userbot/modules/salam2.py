@@ -117,6 +117,25 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
 
+    
+@register(outgoing=True, pattern='^.seff(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**SAYANG SEFFI CANTIK MWAHHH**")
+
+
+@register(outgoing=True, pattern='^.dhan(?: |$)(.*)')    
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**RAMADHAN GANTENG FIX**")
+    
+
+@register(outgoing=True, pattern='^.w(?: |$)(.*)') 
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**BWAHAHAHAHA**")
+    
+
 CMD_HELP.update({
     "salam3":
     ".p\
@@ -158,5 +177,11 @@ CMD_HELP.update({
 \n\n.m\
 \nUsage:\
 \n\n.k\
+\nUsage:\
+\n\n.seff\
+\nUsage:\
+\n\n.dhan\
+\nUsage:\
+\n\n.w\
 \nUsage:"
 })
