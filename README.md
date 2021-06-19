@@ -53,7 +53,7 @@
 ##
 ##
 
-<a href="https://heroku.com/deploy?template=https://github.com/ramadhan73/RAM-UBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20DHAN%20UBOT-red?style=flat&logo=Heroku" width="325" height="50.100" />
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ramadhan73/RAM-UBOT)
 
 <br>
 </p>
