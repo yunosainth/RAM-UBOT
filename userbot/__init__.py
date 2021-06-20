@@ -108,9 +108,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/ramadhan73/RAM-UBOT")
+    "https://github.com/ramadhan73/DHAN-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "RAM-UBOT")
+    "UPSTREAM_REPO_BRANCH", "DHAN-UBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -197,7 +197,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "DHAN-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -541,7 +541,7 @@ with bot:
                         [
                             custom.Button.url(
                                 f"{REPO_NAME}",
-                                "https://github.com/ramadhan73/RAM-UBOT"),
+                                "https://github.com/ramadhan73/DHAN-UBOT"),
                             custom.Button.url(
                                 "OWNER",
                                 f"{OWNER_BOT}")] 
