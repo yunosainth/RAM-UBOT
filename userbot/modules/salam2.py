@@ -196,6 +196,6 @@ CMD_HELP.update({
 \n\n.w\
 \nUsage:\
 \n\n.iri\
-\n\Usage:\
+\n\Usage:"
 })
 
