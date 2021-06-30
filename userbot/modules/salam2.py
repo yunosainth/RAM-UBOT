@@ -134,7 +134,18 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BWAHAHAHAHA**")
+
+
+@register(outgoing=True, pattern='^.cantik(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**SEFFI CANTIK NO DEBAT**")
+
     
+@register(outgoing=True, pattern='^.iri(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**IRI? BILANG PANTAT🥵**")
 
 CMD_HELP.update({
     "salam3":
@@ -180,8 +191,11 @@ CMD_HELP.update({
 \nUsage:\
 \n\n.seff\
 \nUsage:\
-\n\n.dhan\
+\n\n.cantik\
 \nUsage:\
 \n\n.w\
-\nUsage:"
+\nUsage:\
+\n\n.iri\
+\n\Usage:\
 })
+
