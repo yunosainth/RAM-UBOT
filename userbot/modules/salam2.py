@@ -10,10 +10,6 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
-@register(outgoing=True, pattern='^.p(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("Assalamu'alaikum ngentoott!! ")
 
 
 @register(outgoing=True, pattern='^.gjm(?: |$)(.*)')
@@ -196,6 +192,6 @@ CMD_HELP.update({
 \n\n.w\
 \nUsage:\
 \n\n.iri\
-\n\Usage:"
+\nUsage:"
 })
 
