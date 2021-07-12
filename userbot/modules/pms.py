@@ -33,9 +33,9 @@ DEF_UNAPPROVED_MSG = (
     f"**ANAK KONTOL ANAK NGENTOT,KALO NGECHAT MAJIKAN {DEFAULTUSER} ITU SALAM,\nHABIS ITU SABAR TUNGGU MAJIKAN GUA BALES,\nKALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, APA LAGI LU NGECHAT NYA CUMA MINTA VCS, BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU**\n"
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-    "┣[• MASUK AJA KE @TEMAN_RANDOM\n"
+    "┣[• MASUK AJA KE @calonpenyanyi\n"
     "┣[• PESAN OTOMATIS\n"
-    "┣[• BY RAM-UBOT\n"
+    "┣[• BY DHAN-UBOT\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯")
 # =================================================================
 
