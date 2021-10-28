@@ -114,10 +114,10 @@ async def typewriter(typew):
     await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
 
     
-@register(outgoing=True, pattern='^.sef(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kia(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**SAYANG SEFFI CANTIK MWAHHH**")
+    await typew.edit("**KIA TUKANG NGAMBEK**")
 
 
 @register(outgoing=True, pattern='^.fix(?: |$)(.*)')    
@@ -135,7 +135,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.cantik(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**SEFFI CANTIK NO DEBAT**")
+    await typew.edit("**BUNDA CANTIK FIX**")
 
     
 @register(outgoing=True, pattern='^.iri(?: |$)(.*)')
@@ -185,7 +185,7 @@ CMD_HELP.update({
 \nUsage:\
 \n\n.k\
 \nUsage:\
-\n\n.seff\
+\n\n.kia\
 \nUsage:\
 \n\n.cantik\
 \nUsage:\
