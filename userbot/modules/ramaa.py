@@ -28,34 +28,34 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.kel(?: |$)(.*)')
+@register(outgoing=True, pattern='^.nyanyi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Egin**")
-    await typew.edit("**BUNDA TAYANG**")
+    await typew.edit("**POTONG**")
+    await typew.edit("**BEBEK ANGSA**")
     sleep(1)
-    await typew.edit("**Kia**")
-    await typew.edit("**TUKANG NGAMBEK**")
+    await typew.edit("**MASAK DI**")
+    await typew.edit("**KUALIIIII**")
     sleep(2)
-    await typew.edit("**Rama**")
-    await typew.edit("GANTENG**")
+    await typew.edit("**DEKET UDAH LAMA**")
+    await typew.edit("TAPI BELOM PASTIIII**")
     sleep(2)
-    await typew.edit("**Yaya**")
-    await typew.edit("**SI LEMOT**")
+    await typew.edit("**SORONG KE KIRIII**")
+    await typew.edit("**SORONV KE KANANN**")
     sleep(2)
-    await typew.edit("**Bingung**")
-    await typew.edit("**PAKE BANGET**")
+    await typew.edit("**LALALALA**")
+    await typew.edit("**LALALALA TAIIIII**")
     sleep(2)
-    await typew.edit("**Pokonya**")
-    await typew.edit("**RAMA IMUT**")
+    await typew.edit("**MENULIS TUGAS DI ATAS KERTAS**")
+    await typew.edit("**SELESAI ITU KU MASUKAN TAS**")
     sleep(2)
-    await typew.edit("**Bingung lagi**")
-    await typew.edit("**BINGUNG BANGETT**")
+    await typew.edit("**AKU KIRA AKU PRIORITAS**")
+    await typew.edit("**TERNYATA ADA YANG LEBIH PANTAS**")
     sleep(2)
-    await typew.edit("**Udah ah**")
-    await typew.edit("**BYE SAJA**")
+    await typew.edit("**MUKA LU JELEK**")
+    await typew.edit("**GK USAH SOK GHOSTING ORANG**")
     sleep(3)
-    await typew.edit("**CUMA RAMA YANG WARAS!**")
+    await typew.edit("**XIXIXIXIXI**")
 
 # Create by myself @localheart
 
@@ -65,6 +65,6 @@ CMD_HELP.update({
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
-    \n\n`.punten` ; `.kel`\
+    \n\n`.punten` ; `.nyanyi`\
     \nUsage: misi."
 })
