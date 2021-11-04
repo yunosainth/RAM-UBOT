@@ -41,7 +41,7 @@ async def typewriter(typew):
     await typew.edit("TAPI BELOM PASTIIII**")
     sleep(2)
     await typew.edit("**SORONG KE KIRIII**")
-    await typew.edit("**SORONV KE KANANN**")
+    await typew.edit("**SORONG KE KANANN**")
     sleep(2)
     await typew.edit("**LALALALA**")
     await typew.edit("**LALALALA TAIIIII**")
@@ -60,8 +60,8 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "rambot":
-    "`.rambot`\
+    "dhanbot":
+    "`.dhanbot`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
