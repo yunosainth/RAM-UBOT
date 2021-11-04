@@ -132,10 +132,10 @@ async def typewriter(typew):
     await typew.edit("**BWAHAHAHAHA**")
 
 
-@register(outgoing=True, pattern='^.cantik(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ysj(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BUNDA CANTIK FIX**")
+    await typew.edit("**YAAAA SAJAAAA**")
 
     
 @register(outgoing=True, pattern='^.iri(?: |$)(.*)')
@@ -187,7 +187,7 @@ CMD_HELP.update({
 \nUsage:\
 \n\n.kia\
 \nUsage:\
-\n\n.cantik\
+\n\n.ysj\
 \nUsage:\
 \n\n.w\
 \nUsage:\
