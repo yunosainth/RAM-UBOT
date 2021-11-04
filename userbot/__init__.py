@@ -582,7 +582,7 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "t.me/ramubotinfo"),
+                                       "t.me/dhanubotinfo"),
                             Button.url("•SUPPORT• ", 
                                        "t.me/calonpenyanyi")],
                         [Button.url("•OWNER• ",
