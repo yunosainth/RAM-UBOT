@@ -174,7 +174,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# Untuk Perintah .rambot (alive)
+# Untuk Perintah .dhanbot (alive)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM", None)
 
 # Untuk Melihat Repo
@@ -210,11 +210,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/fd340ccbc097addc7e192.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/66c02f7a372068dea7d90.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/fd340ccbc097addc7e192.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/66c02f7a372068dea7d90.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadhan472"
@@ -224,11 +224,11 @@ EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "CHANNEL_LINK") or "t.me/calonpenyanyi"
+    "CHANNEL_LINK") or "https://t.me/fuckinglovesex"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/gksukaribettt"
+    "OWNER_BOT") or "https://t.me/gksukaribettt"
 
 
 # Last.fm Module
@@ -464,7 +464,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Ram_ubot")
+                    results = await event.client.inline_query(tgbotusername, "@dhan_ubot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -492,11 +492,11 @@ with bot:
                     buttons=[
                         [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                        "t.me/calonpenyanyi"),
+                                        "Https://t.me/fuckingloveid"),
                              Button.url("🚨 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
-                                        "t.me/fuckinglovesex")],
+                                        "Https://t.me/fuckinglovesex")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/gksukaribettt")],
+                                        "Https://t.me/gksukaribettt")],
                     ]
                 )
 
@@ -574,7 +574,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # @Ram-ubot
+            if event.query.user_id == uid:  # @Dhan-ubot
                 # https://t.me/TelethonChat/115200
                 await event.edit(
                     file=ramlogo,
@@ -584,7 +584,7 @@ with bot:
                             Button.url(f"{REPO_NAME}",
                                        "t.me/dhanubotinfo"),
                             Button.url("•SUPPORT• ", 
-                                       "t.me/calonpenyanyi")],
+                                       "Https://t.me/fuckinglovesex")],
                         [Button.url("•OWNER• ",
                                     f"{OWNER_BOT}"),
                             Button.url("•INSTAGRAM• ",
