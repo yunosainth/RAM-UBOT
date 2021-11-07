@@ -26,7 +26,7 @@ GIT_REPO_NAME =
 GITHUB_ACCESS_TOKEN = 
 Get GitHub access token from :https://github.com/settings/tokens
 Click on generate new token
-Enable this permissions:https://telegra.ph/file/0262c512e2b82fcd0260a.jpg
+Enable this permissions:https://telegra.ph/file/66c02f7a372068dea7d90.jpg
 
 # Custom (forked) repo URL for updater. this vars are important
 UPSTREAM_REPO_URL = https://github.com/mkaraniya/OpenUserBot.git
