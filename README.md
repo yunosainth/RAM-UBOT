@@ -1,5 +1,5 @@
 
-align="center">
+
   <a href="https://github.com/ramadhan73/DHAN-UBOT/fork">
     <img src="https://img.shields.io/github/forks/ramadhan73/DHAN-UBOT?label=Fork&style=social">
     
