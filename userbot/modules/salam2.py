@@ -123,7 +123,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.fix(?: |$)(.*)')    
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**RAMADHAN GANTENG FIX**")
+    await typew.edit("**RAMADHAN GANTENG**")
     
 
 @register(outgoing=True, pattern='^.w(?: |$)(.*)') 
