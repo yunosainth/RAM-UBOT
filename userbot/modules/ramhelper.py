@@ -13,7 +13,7 @@ async def usit(e):
     await e.edit(
         f"**Hai {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Telegram](t.me/gksukaribett)"
-        "\n[Repo](https://github.com/ramadhani73/DHAN-UBOT)"
+        "\n[Repo](https://github.com/ramadhan73/DHAN-UBOT)"
         "\n[Channel](https://t.me/calonpenyanyi)")
 
 
@@ -21,13 +21,13 @@ async def usit(e):
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/ramadhani892/RAM-UBOT/RAM-UBOT/varshelper.txt)")
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/ramadhan73/DHAN-UBOT/DHAN-UBOT/varshelper.txt)")
 
 
 CMD_HELP.update({
-    "ramhelper":
+    "dhanhelper":
     "`.helpmy`\
-\nPenjelasan: Bantuan Untuk RAM-UBOT.\
+\nPenjelasan: Bantuan Untuk DHAN-UBOT.\
 \n`.lordvar`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
 })
