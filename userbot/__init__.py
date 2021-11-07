@@ -210,11 +210,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/fd340ccbc097addc7e192.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/5daa73aa6d1afbd1da353.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/fd340ccbc097addc7e192.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadhan472"
@@ -228,7 +228,7 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/gksukaribett"
+    "OWNER_BOT") or "t.me/gksukaribettt"
 
 
 # Last.fm Module
@@ -494,9 +494,9 @@ with bot:
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/calonpenyanyi"),
                              Button.url("🚨 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
-                                        "t.me/wavyheartt")],
+                                        "t.me/fuckinglovesex")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/gksukaribett")],
+                                        "t.me/gksukaribettt")],
                     ]
                 )
 
