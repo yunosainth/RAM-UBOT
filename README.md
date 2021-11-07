@@ -1,6 +1,5 @@
-<a href="https://www.instagram.com/ramadhan472=nametag"><img src="https://telegra.ph/file/66c02f7a372068dea7d90.jpg" width="516" height="212" alt="DHAN-UBOT" /></a>
 
-<p align="center">
+align="center">
   <a href="https://github.com/ramadhan73/DHAN-UBOT/fork">
     <img src="https://img.shields.io/github/forks/ramadhan73/DHAN-UBOT?label=Fork&style=social">
     
@@ -8,16 +7,12 @@
   <a href="https://github.com/ramadhan73/DHAN-UBOT">
     <img src="https://img.shields.io/github/stars/ramadhan73/DHAN-UBOT?style=social">
   </a>
-</p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhan73)
 
-<a href="https://t.me/fuckinglovesex"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
-## Pemilik Repo: DHAN UBOT
-[<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/gksukaribettt)
-##
-##
+## Pemilik Repo: (https://t.me/gksukaribettt)
+
+
 # KALO FORK TUH KASIH BINTANG YA TOLOL!
 
 
@@ -31,17 +26,6 @@
 [![Deploy](https://telegra.ph/file/66c02f7a372068dea7d90.jpg)](https://t.me/fuckinglovesex)
 
 
-<h3 align="center">REPO DHAN-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
-<p align="center">&nbsp;</p>
-
-
-
-
-## Bagaimana Cara Deploy?
-
-
-* **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src=https://telegra.ph/file/66c02f7a372068dea7d90.jpg>](https://t.me/fuckinglovesex)
 
 
 
