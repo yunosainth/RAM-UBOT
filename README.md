@@ -1,4 +1,4 @@
-<a href="https://www.instagram.com/ramadhan472=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="212" alt="DHAN-UBOT" /></a>
+<a href="https://www.instagram.com/ramadhan472=nametag"><img src="https://telegra.ph/file/66c02f7a372068dea7d90.jpg" width="516" height="212" alt="DHAN-UBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/ramadhan73/DHAN-UBOT/fork">
