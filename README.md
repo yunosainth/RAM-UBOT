@@ -24,7 +24,7 @@
 ## JOIN DULU TOT!!:
 
 <a href="https://t.me/fuckinglovesex"><img src="https://img.shields.io/badge/Channel-%20DhanUbot-black.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/fuckinglovesex"><img src="https://img.shields.io/badge/Join-calon%20penyanyi-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/fuckinglovesex"><img src="https://img.shields.io/badge/Join-fucking%20love%20sex-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
@@ -43,9 +43,7 @@
 * **VIDEO TUTORIAL DEPLOY!** 🔧
 [<img src=https://telegra.ph/file/66c02f7a372068dea7d90.jpg>](https://t.me/fuckinglovesex)
 
-### AMBIL STRING DI BAWAH INI:
 
- [![RAM-UBOT-STRING](https://replit.com/badge/github/@ramadhan73/RAM-UBOT)](https://replit.com/@ramadhani892/RAM-UBOT-STRING)
 
 
 
