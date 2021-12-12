@@ -26,7 +26,7 @@ async def var(m):
 
 CMD_HELP.update({
     "dhanhelper":
-    "`.helpmy`\
+    "`.helpme`\
 \nPenjelasan: Bantuan Untuk DHAN-UBOT.\
 \n`.lordvar`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
