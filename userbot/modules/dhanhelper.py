@@ -28,6 +28,6 @@ CMD_HELP.update({
     "dhanhelper":
     "`.helpme`\
 \nPenjelasan: Bantuan Untuk DHAN-UBOT.\
-\n`.lordvar`\
+\n`.vars`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
 })
